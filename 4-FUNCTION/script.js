@@ -19,3 +19,6 @@ function NumeroAleatorio () {
 NumeroAleatorio()
 
 ImprimirUmNúmero(2)
+
+const vasco = function vasco (){ console.log("log")}
+vasco()
