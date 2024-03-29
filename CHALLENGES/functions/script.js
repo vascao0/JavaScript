@@ -28,3 +28,34 @@ function ex04 (a) {
 }
 
 ex04(5)
+
+// EX05
+function ex05 (age) {
+    if (age >= 18){
+    console.log("Pode Entrar")
+    } else{
+    console.log("Pode não")
+    }
+}
+
+ex05(18)
+
+// EX06
+function ex06 (tips) {
+    console.log(`O dado "${tips}" é ` + typeof(tips))
+}
+
+ex06("vasco")
+
+// EX07
+function ex07 (negative) {
+    console.log(Math.abs(negative))
+
+    if (negative != Math.abs(negative)) {
+        console.log("é negativo e o positivo dele é " + Math.abs(negative))
+    } else {
+        console.log(`O número ${negative} Não é negativo`)
+    }
+}
+
+ex07(8)
