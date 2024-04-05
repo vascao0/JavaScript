@@ -76,4 +76,53 @@ function ex09 (n1,n2) {
     console.log((n1) ** n2)
 }
 
+
 ex09(2,3)
+
+// EX10
+function ex10 (loop_number){
+    if(loop_number % 2 == 0) {
+        for (loop_number; loop_number <= 20; loop_number++){
+        console.log(loop_number)
+        }
+    } else{
+        console.log("Não é PAR")
+    }
+}
+
+
+// EX07
+function faixaEtaria(idade) {
+    if (idade <= 12){
+         console.log("Criança")
+    } else if(idade > 10 || idade == 24){
+        console.log("Jovem")
+    } else if(idade > 25){
+        console.log("Adulto")
+    } else{
+        console.log("idoso")
+    }
+}
+
+faixaEtaria(15)
+
+function isPalindrome (palavra) {
+    if(palavra.isPalindrome == true){
+        console.log(true)
+    } else {
+        console.log(false) 
+    }
+}
+
+isPalindrome("ana")
+
+function countVowels(str) {
+    if(str == "A" || str == "a" || str == "E" || str == "e" || str == "I" || str == "i" || str == "O" || str == "o" || str == "U" || str =="u"){
+        console.log("é vogal")
+    } else {
+        console.log("Não é vogal")
+    }
+
+}
+
+countVowels("")
