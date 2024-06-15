@@ -13,3 +13,6 @@ console.log(cars.reverse())
 cars.forEach(car => {
     console.log(`o carro é ${car}`)
 })
+
+let string = 'dad'
+console.log(string.replace())

@@ -1,0 +1,6 @@
+{
+    "pedro":23,
+    "$schema": 5,
+    "langs": ["PHP","PYTHON", "JAVA"],
+    "extend": [".js", ".jsx", ".php"]
+}
