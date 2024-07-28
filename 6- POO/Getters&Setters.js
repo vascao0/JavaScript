@@ -1,10 +1,10 @@
-class UserName{
+class userName{
     constructor(name){
         this.name = name
     }
 
     get SeeName(){
-        return  `'${this.name}'`
+        return this.name + ' esse é o valor'
     }
 
     set NewName(value){
@@ -12,6 +12,6 @@ class UserName{
     }
 }
 
-let vasco = new UserName("teste"); 
-vasco.NewName = 's'
+let vasco = new userName("vasco")
+vasco.NewName = 'thor'
 console.log(vasco.SeeName)
