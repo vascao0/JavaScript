@@ -1,19 +1,5 @@
-class WordCounter{
-    contructor(str){
-        this.str = str
-    }
+const inputText = "vas cao dda dadada"
 
-    countWords(str){
-        str = str.split()
-        for (str in i){
-            console.log(str[i])
-        }
-    }
-}
+const words = inputText.trim().split(/\s+/);
 
-let vascao = new WordCounter
-vascao.countWords("dada", "dadada")
-
-// let vascao = "vasco"
-// vascao = vascao.split()
-// console.log(vascao)
+ console.log(`Número de palavras: ${words.length}`);
