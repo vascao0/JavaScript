@@ -11,6 +11,7 @@ class Pedrao extends user{
     }
 }
 
-// let vascao = new Pedrao(18,"é")
-// console.log(vascao)
+console.log(vascao)
 console.log(new Pedrao instanceof user)
+
+class vascao{ constructor(vasco) {this.vasco = true} }
