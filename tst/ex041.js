@@ -1,0 +1,1 @@
+console.log("A E I".match(/[A-Z]/g))
