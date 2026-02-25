@@ -23,7 +23,4 @@ function validadordeSenha(str){
     }
 }
 
-validadordeSenha("vasco@")
-validadordeSenha("éissoaí3$")
-validadordeSenha("vasc5")
-validadordeSenha("vasc5")
+validadordeSenha("vasco@5")

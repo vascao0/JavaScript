@@ -20,5 +20,5 @@ let user = {
   },
 };
 
-user.tst([5, 2, 2]);
+user.tst([5, 2, 2,3]);
 user.arrf();
