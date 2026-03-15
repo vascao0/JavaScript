@@ -14,7 +14,6 @@ console.log(AtLeastThreeLetters.test("dad"))
 //NO MÍNIMO 5 CARACTERES
 //NO MÍNIMO 1 NÚMERO
 
-
 function validadordeSenha(str){
     if(/\W/.test(str) && /\w\w\w\w\w/.test(str) && /\d/.test(str)){
         console.log(`'${str}' is good password 👍`)
@@ -23,4 +22,17 @@ function validadordeSenha(str){
     }
 }
 
-validadordeSenha("vasco@5")
+validadordeSenha("5asco@@5")
+
+/*
+OPERADORES
+^ = responsável por negar; combinações são aceitas.
++ = diz que o elemento que vai se repetir
+? = faz com que o digito anterior seja opcional
+{} = inserir número de ocorrência
+|| = "or" das condicionais
+
+MODIFICADORES (FLAGS) 
+i = insensitive case (ignorar maiusculo e minusculo)
+g = procurar pela expressão toda
+*/
